@@ -61,99 +61,72 @@ $text-transform: uppercase;
 
 // Chika section
 
+
+// RESOURCES-FOOTER Small Screen
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .wrapper{
   display:grid;
   justify-content: space-around;
   background-color:white;
-  font-family: myParagraphFont;
+  font-family: bodyGraph;
   color:red;
-  font-size: 30px;
+  font-size: 20px;
 }
-
-.design-selection h3{
+.design-selection h3 {
   text-align: center;
   padding-top: 5px;
-  padding-top: 5px;
-  font-size: 50px;
   color: #fff;
-  font-size:40px;
+  font-size: 37px;
   text-transform: uppercase;
-  font-family: myPragraphFont;
+  font-family: myParagraphFont;
   background: linear-gradient(to right,#095fab 10%, #25abe8 50%, red 60%);
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-transform:  transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 1.5s linear infinite;
   display: inline-block;
 }
- 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
 .design-archives h3{
   text-align: center;
   padding-top: 5px;
-  padding-top: 5px;
-  font-size: 50px;
+  font-size: 37px;
   padding-left: 20px;
   color: #fff;
   text-transform: uppercase;
-  font-family: myPragraphFont;
+  font-family: myParagraphFont;
   background: linear-gradient(to right,#095fab 10%,  white 60%);
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
   background-clip: text;
-  text-transform:  transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 1.5s linear infinite;
   display: inline-block;
 }
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }  
-}    
-
-.zen-resources h3{
+.zen-resources h3 {
   text-align: center;
   padding-top: 5px;
-  font-size: 45px;
+  font-size: 37px;
   padding-left: 20px;
   color: #fff;
   text-transform: uppercase;
-  font-family: myPragraphFont;
+  font-family: myParagraphFont;
   background: linear-gradient(to right, white 10%, salmon 30%);
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-transform:  transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 1.5s linear infinite;
   display: inline-block;
 }
-  
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
 
-@media only screen and (min-width: 32em) {
+// RESOURCES-FOOTER Medium Screen
+@media only screen and (min-width: $break-small) {
   .wrapper{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -161,160 +134,66 @@ $text-transform: uppercase;
     background-color: white;
     color:red;
     padding-left:20px;
+    font-size: 23px;
   }
 }
-   
-@media only screen and (min-width: 60em) {
+
+// RESOURCES-FOOTER Large Screen
+@media only screen and (min-width: $break-medium) {
   .wrapper{
     display:flex;
     justify-content: space-around;
     background-color:white;
-    font-family: myPragraphFont;
+    font-family: bodyGraph;
     color:black;
-    font-size: 20px;
+    font-size: 28px; 
   }
-}
-      
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
-.zen-resources h3{
-  text-align: center;
-  padding-top: 5px;
-  padding-top: 5px;
-  font-size: 50px;
-  color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-family: myPragraphFont;
-  background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-transform:  transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 1.5s linear infinite;
-  display: inline-block;
-}
-
-@media only screen and (min-width: 32em) {
-  .wrapper{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    background-color: white;
-    color:red;
-    padding-left:20px;
-  }
-}
-   
-@media only screen and (min-width: 60em) {
-  .wrapper{
-    display:flex;
-    justify-content: space-around;
-    background-color:white;
-    font-family: myPragraphFont;
-    color:black;
-    font-size: 25px; 
-  }
-
   .design-selection h3{
     text-align: center;
     padding-top: 5px;
-    padding-top: 5px;
-    font-size: 50px;
+    font-size: 45px;
     color: #fff;
-    font-size:40px;
     text-transform: uppercase;
-    font-family: myPragraphFont;
+    font-family: myParagraphFont;
     background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
-    background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-transform:  transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 1.5s linear infinite;
     display: inline-block;
   }
-      
-  @keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
-
-
   .design-archives h3{
     text-align: center;
     padding-top: 5px;
-    padding-top: 5px;
-    font-size: 50px;
+    font-size: 45px;
     color: #fff;
     text-transform: uppercase;
-    font-family: myPragraphFont;
+    font-family: myParagraphFont;
     background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
-    background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-transform:  transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 1.5s linear infinite;
     display: inline-block;
   }
-
-  @keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
-
   .zen-resources h3{
     text-align: center;
     padding-top: 5px;
-    padding-top: 5px;
-    font-size: 50px;
+    font-size: 45px;
     color: #fff;
-    font-size: 30px;
     text-transform: uppercase;
-    font-family: myPragraphFont;
+    font-family: myParagraphFont;
     background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
-    background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-transform:  transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 1.5s linear infinite;
     display: inline-block;
   }
- 
-  @keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
 }
-
-
-
-
-
-
-
 
 
 
@@ -322,11 +201,10 @@ $text-transform: uppercase;
 
 
 //comfort section
-  
 
+// HEADER-IntroContent Small Screen
 body { 
   color:$color-5;
-  // background-image: url("images/1571660.jpg");https://m.media-amazon.com/images/I/51cJDs+0i4L._AC_SL1200_.jpg
   background-image: url("https://w0.peakpx.com/wallpaper/892/746/HD-wallpaper-mickey-mouse-black-background-cartoon-character-mouse.jpg");
   background-repeat:repeat;
   background-position: center;
@@ -334,7 +212,6 @@ body {
   padding:2em;
   background-color: black;
 }
-
 header h1 {
   text-align: center;
   text-transform: $text-transform;
@@ -348,7 +225,6 @@ header h1 {
   border-color: $color-primary;
   animation: zoom-in-zoom-out 3s ease infinite;
 }
-
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
@@ -360,13 +236,11 @@ header h1 {
     transform: scale(1, 1);
   }
 }
-
 header h1:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
-
 header h2 {
   text-align: center;
   text-transform: $text-transform;
@@ -377,12 +251,10 @@ header h2 {
   margin: auto;
   animation: zoom-in-zoom-out 3s ease infinite;
 }
-
 section.intro a {
   text-decoration: none;
   color:$color-4;
 }  
-
 #zen-summary p {
   text-align: center;
   text-transform: $text-transform;
@@ -397,7 +269,6 @@ section.intro a {
   margin-top:10px;
   margin-bottom: 10px;
 }
-
 #zen-preamble {
   background-color: white;
   background-position: center;
@@ -416,19 +287,8 @@ section.intro a {
   }
 }
 
-@media only screen and (min-width: 992px) {
-  #zen-preamble {
-    background-image: url("images/mickey-mouse-border.png");
-    background-repeat:no-repeat;
-    // width: 100%;
-    color:black;
-    max-width: 55.8%;
-    background-size:827px 490px; 
-  }   
-}
-
-
-@media screen and (min-width: 32em){
+// HEADER-IntroContent Medium Screen
+@media screen and (min-width: $break-small){
   #zen-preamble {
     background-position: center;
     padding:2em;
@@ -439,15 +299,16 @@ section.intro a {
   }
 }
 
-
-
-
-
-
-
-
-
-
+// HEADER-IntroContent Large Screen
+@media only screen and (min-width: $break-medium) {
+  #zen-preamble {
+    background-image: url("images/mickey-mouse-border.png");
+    background-repeat:no-repeat;
+    color:black;
+    max-width: 55.8%;
+    background-size:827px 490px; 
+  }   
+}
 
 
 
@@ -458,6 +319,7 @@ section.intro a {
 //ebube section
 
 
+// MainContent Small Screen
 
 // Animations
 @keyframes rotate {
@@ -482,9 +344,7 @@ used to move the letters in the FOOTER */
 // Main Content
 .supporting {
 	display: grid;
-	grid-gap: 50px;
-	// background-color: $background-color_1;
-	padding: 40px;
+  padding-top: 50px;
 	font-family: myParagraphFont;
 	max-width: 66 characters;
 	font-size: 25px;
@@ -542,7 +402,7 @@ used to move the letters in the FOOTER */
 	animation: none;
 	font-size: 41px;
 	cursor: pointer;
-    text-align: center;
+  text-align: center;
 	border: 9.5px dashed $color_dark;
 	h3 {
 		text-align: center;
@@ -615,7 +475,7 @@ footer {
 	}
 }
 
-// Medium Screen
+// MainContent Medium Screen
 @media only screen and (max-width: $break-medium) and (min-width: $break-small) {
 	.explanation {
 		grid-column: 1/span 3;
@@ -639,8 +499,11 @@ footer {
 	}
 }
 
-// Large screen
+// MainContent Large screen
 @media only screen and (min-width: $break-large) {
+  .supporting {
+    grid-gap: 50px;
+  }
 	.explanation {
 		grid-column: 1/span 2;
 		grid-row: 1;
