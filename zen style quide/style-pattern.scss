@@ -1,0 +1,109 @@
+@use 'variables' as *; //this puts all the variables in the global namespace.
+@use 'atoms';
+//@use 'molecules';
+//@use 'organisms' as o;
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: $background-color;
+  padding: 5%;
+}
+
+body {
+  font-family: $fonts-body;
+  font-size: 85%;
+  color: $text-dark;
+  background-color: $primary;
+  margin: 0;
+  padding: 1em;
+}
+
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+}
+.colors {
+  @include atoms.set-flex();
+  > h3 {
+    width: 100%;
+    flex: 1 0 100%;
+  }
+  > figure {
+    margin: 0;
+    flex: 1 1 25%;
+  }
+}
+.swatch {
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+}
+.primary {
+  background-color: $primary;
+}
+.accent1 {
+  background-color: $accent1;
+}
+.accent2 {
+  background-color: $accent2;
+}
+.text-dark {
+  background-color: $text-dark;
+}
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+.uppercase {
+  @include atoms.uppercase;
+}
+.uppercase-light {
+  @include atoms.uppercase($text-light);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/new-waltograph/NewWaltDisneyFontRegular-BPen.ttf);
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(./fonts/wicked-mouse-font/WickedMouse-aGoK.ttf);
+}
+@font-face {
+  font-family: smallerHeading;
+  src: url(./fonts/mouse-handwriting/MouseHandwriting.ttf);
+}
+@font-face {
+  font-family: myPragraphFont;
+  src: url(./fonts/mickorama-25039/Mickorama-5Rez.ttf);
+}
+
+.heading {
+  font-family: myFirstFont;
+  font-size: 3rem;
+}
+
+.heading2 {
+  font-family: mySecondFont;
+  font-size: 1.6rem;
+}
+
+.heading3 {
+  font-family: smallerHeading;
+  font-size: 2rem;
+}
+
+.the-body {
+  font-family: myPragraphFont;
+  font-size: 1.2rem;
+}
+h4.the-body {
+  font-size: 3rem;
+}
+* {
+  word-wrap: break-word;
+}

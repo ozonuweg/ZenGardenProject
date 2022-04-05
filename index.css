@@ -1,0 +1,743 @@
+@font-face {
+  font-family: headerFont;
+  src: url(./fonts/new-waltograph/NewWaltDisneyFontRegular-BPen.ttf);
+}
+
+@font-face {
+  font-family: smallerHeading;
+  src: url(./fonts/mouse-handwriting/MouseHandwriting.ttf);
+}
+
+@font-face {
+  font-family: myParagraphFont;
+  src: url(./fonts/mickorama-25039/Mickorama-5Rez.ttf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(./fonts/wicked-mouse-font/WickedMouse-aGoK.ttf);
+}
+
+@font-face {
+  font-family: bodyGraph;
+  src: url(fonts/mouse-memoirs-font2/MouseMemoirs-Zg8l.ttf);
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+  font-family: myParagraphFont;
+  color: red;
+  font-size: 30px;
+}
+
+.design-selection h3 {
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: myPragraphFont;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #095fab), color-stop(50%, #25abe8), color-stop(60%, red));
+  background: linear-gradient(to right, #095fab 10%, #25abe8 50%, red 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-transform: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 1.5s linear infinite;
+          animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.design-archives h3 {
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  padding-left: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: myPragraphFont;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #095fab), color-stop(60%, white));
+  background: linear-gradient(to right, #095fab 10%, white 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-transform: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 1.5s linear infinite;
+          animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.zen-resources h3 {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 45px;
+  padding-left: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: myPragraphFont;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, white), color-stop(30%, salmon));
+  background: linear-gradient(to right, white 10%, salmon 30%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-transform: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 1.5s linear infinite;
+          animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media only screen and (min-width: 32em) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    background-color: white;
+    color: red;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: white;
+    font-family: myPragraphFont;
+    color: black;
+    font-size: 20px;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.zen-resources h3 {
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: myPragraphFont;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #095fab), color-stop(50%, #25abe8), color-stop(60%, #57d75b));
+  background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-transform: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 1.5s linear infinite;
+          animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 32em) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    background-color: white;
+    color: red;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: white;
+    font-family: myPragraphFont;
+    color: black;
+    font-size: 25px;
+  }
+  .design-selection h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: myPragraphFont;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #095fab), color-stop(50%, #25abe8), color-stop(60%, #57d75b));
+    background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-transform: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: textclip 1.5s linear infinite;
+            animation: textclip 1.5s linear infinite;
+    display: inline-block;
+  }
+  @-webkit-keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  .design-archives h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: myPragraphFont;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #095fab), color-stop(50%, #25abe8), color-stop(60%, #57d75b));
+    background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-transform: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: textclip 1.5s linear infinite;
+            animation: textclip 1.5s linear infinite;
+    display: inline-block;
+  }
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  .zen-resources h3 {
+    text-align: center;
+    padding-top: 5px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: myPragraphFont;
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #095fab), color-stop(50%, #25abe8), color-stop(60%, #57d75b));
+    background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-transform: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: textclip 1.5s linear infinite;
+            animation: textclip 1.5s linear infinite;
+    display: inline-block;
+  }
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+body {
+  color: white;
+  background-image: url("https://w0.peakpx.com/wallpaper/892/746/HD-wallpaper-mickey-mouse-black-background-cartoon-character-mouse.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  max-width: 100%;
+  padding: 2em;
+  background-color: black;
+}
+
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: headerFont;
+  background-image: url("images/header-background.jpg");
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  color: black;
+  width: 60%;
+  margin: auto;
+  border-color: #F02D3A;
+  -webkit-animation: zoom-in-zoom-out 3s ease infinite;
+          animation: zoom-in-zoom-out 3s ease infinite;
+}
+
+@-webkit-keyframes zoom-in-zoom-out {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+header h1:hover {
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+header h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: headerFont;
+  background-image: url("images/header-background.jpg");
+  color: black;
+  width: 60%;
+  margin: auto;
+  -webkit-animation: zoom-in-zoom-out 3s ease infinite;
+          animation: zoom-in-zoom-out 3s ease infinite;
+}
+
+section.intro a {
+  text-decoration: none;
+  color: black;
+}
+
+#zen-summary p {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: headerFont;
+  font-weight: bold;
+  background-color: #F02D3A;
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+  border-style: ridge;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#zen-preamble {
+  background-color: white;
+  background-position: center;
+  color: black;
+  background-repeat: no-repeat;
+  font-family: myParagraphFont;
+  font-size: 20px;
+  padding: 1em;
+  background-position: center;
+}
+
+#zen-preamble p {
+  max-width: 100%;
+  margin: auto;
+}
+
+#zen-preamble h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  #zen-preamble {
+    background-image: url("images/mickey-mouse-border.png");
+    background-repeat: no-repeat;
+    color: black;
+    max-width: 55.8%;
+    background-size: 827px 490px;
+  }
+}
+
+@media screen and (min-width: 32em) {
+  #zen-preamble {
+    background-position: center;
+    padding: 2em;
+    margin: auto;
+  }
+  #zen-preamble p {
+    max-width: 50%;
+  }
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+/* Specify the animation keyframesto be 
+used to move the letters in the FOOTER */
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.supporting {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 50px;
+  padding: 40px;
+  font-family: myParagraphFont;
+  max-width: 66 characters;
+  font-size: 25px;
+}
+
+.explanation {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  text-align: center;
+  padding: 20px;
+  border: 9.5px dashed #000;
+  background-image: url("https://www.hakes.com/Image/MediumRes/1828/1/image.jpg");
+  color: #F02D3A;
+  font-weight: 400;
+}
+
+.explanation h3 {
+  font-family: mySecondFont;
+}
+
+.explanation:hover {
+  background-image: none;
+  background-color: white;
+  color: #232ED1;
+  cursor: pointer;
+}
+
+.participation {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  padding: 20px;
+  cursor: pointer;
+  border: 10px solid #000;
+  color: #000;
+  font-size: 27px;
+  font-weight: 300;
+  -o-border-image: none;
+     border-image: none;
+  background-image: url("https://i.etsystatic.com/24197159/c/434/345/42/92/il/180b1d/3171401524/il_340x270.3171401524_l7i3.jpg");
+}
+
+.participation h3 {
+  text-align: center;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(cornsilk, #F02D3A, blue, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.participation:hover {
+  background-color: cornsilk;
+  -o-border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 10s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+     border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 10s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+  color: #232ED1;
+}
+
+.benefits {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  background-color: #242423;
+  color: cornsilk;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-animation: none;
+          animation: none;
+  font-size: 41px;
+  cursor: pointer;
+  text-align: center;
+  border: 9.5px dashed #000;
+}
+
+.benefits h3 {
+  text-align: center;
+  font-family: mySecondFont;
+  font-size: 35px;
+}
+
+.benefits:hover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mickey_Mouse_head_and_ears.svg/2000px-Mickey_Mouse_head_and_ears.svg.png");
+  color: #FAFF00;
+  font-weight: 800;
+  -webkit-animation: rotate 40s linear infinite;
+          animation: rotate 40s linear infinite;
+}
+
+.requirements {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  font-family: bodyGraph;
+}
+
+.requirements h3 {
+  font-family: headerFont;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#eee, cornsilk);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.requirements:hover {
+  background-color: #F02D3A;
+  color: #000;
+  cursor: pointer;
+}
+
+footer {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  background: #000;
+}
+
+footer a {
+  text-align: center;
+  color: #262626;
+  background: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 0 #ccc;
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), 0 5px 0 #ccc;
+  -webkit-animation: animate 0.5s infinite;
+          animation: animate 0.5s infinite;
+}
+
+footer a:hover {
+  background-color: blue;
+  color: cornsilk;
+}
+
+footer a:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+footer a:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+footer a:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+footer a:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+footer a:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@media only screen and (max-width: 994px) and (min-width: 650px) {
+  .explanation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/span 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .participation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .benefits {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .requirements {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/span 3;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+  footer {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/span 3;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+}
+
+@media only screen and (min-width: 995px) {
+  .explanation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/span 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .participation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .benefits {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .requirements {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/span 2;
+  }
+  footer {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/span 3;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+}
+/*# sourceMappingURL=index.css.map */
